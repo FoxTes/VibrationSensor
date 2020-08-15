@@ -113,7 +113,7 @@
 
 #define ADXL_SPI_RNW                    1
 
-#define ADXL_SCALE_LSB                  0.1f
+#define ADXL_SCALE_LSB                  0.083f /* Дополнительное деление связно с умножением в бибилотеке NDMlog на значение 1.2 */
 
 typedef enum 
 {
