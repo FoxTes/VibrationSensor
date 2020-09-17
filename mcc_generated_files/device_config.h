@@ -8,9 +8,9 @@
 */
 
 // Для режима отладки.
-#define DEBUG
+// #define DEBUG
 // Отправлять данные на ПК.
-#define SEND_TO_PC
+// #define SEND_TO_PC
 // Очищать EEPROM при записи.
 // #define EEPROM_CLEAR         
 // Частоты кварца (для задержек).

@@ -18,10 +18,10 @@ void PIN_MANAGER_Initialize(void)
     TRISA = 0x1C;
     // ANSELx registers.
     ANSELA = 0x00;
-    // WPUx registers.
-    WPUA = 0x00;
-    OPTION_REGbits.nWPUEN = 1;
-    // APFCONx registers.
+    // WPUx registers
+    WPUA = 0x08;
+    OPTION_REGbits.nWPUEN = 0;
+    // APFCONx registers
     APFCON = 0x04;  
 }
   
